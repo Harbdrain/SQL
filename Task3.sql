@@ -1,0 +1,1 @@
+SELECT employee.Name as Employee FROM Employee employee INNER JOIN Employee manager ON employee.ManagerId == manager.Id WHERE employee.Salary > manager.Salary;
